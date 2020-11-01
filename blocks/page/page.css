@@ -1,0 +1,12 @@
+@import url("../page/__section/page__section.css");
+.page {
+    background-color: #2a2c2f;
+    margin: 0 auto;
+    box-sizing: border-box;
+    color: white;
+    max-width: 1184px;
+    min-width: 320px;
+    font-family: "Inter", "Arial", "Sans-serif";
+    font-weight: normal;
+    font-style: normal;
+}

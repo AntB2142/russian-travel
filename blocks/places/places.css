@@ -1,0 +1,24 @@
+@import url("../place/place.css");
+.places {
+    background: #2a2c2f;
+    max-width: 984px;
+    margin: 92px auto;
+}
+
+@media all and (max-width: 768px) {
+    .places {
+        max-width: calc(100% - 48px);
+    }
+}
+
+@media all and (max-width: 425px) {
+    .places {
+        max-width: calc(100% - 32px);
+    }
+}
+
+@media all and (max-width: 320px) {
+    .places {
+        width: calc(100% - 32px);
+    }
+}

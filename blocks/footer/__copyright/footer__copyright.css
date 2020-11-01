@@ -1,0 +1,28 @@
+.footer__copyright {
+    color: #ffffff;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    text-align: right;
+}
+
+@media all and (max-width: 950px) {
+    .footer__copyright {
+        margin-top: 0;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .footer__copyright {
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+        margin: 0;
+    }
+}
+
+@media all and (max-width: 425px) {
+    .footer__copyright {
+        display: flex;
+        justify-content: flex-start;
+        padding-top: 48px;
+    }
+}

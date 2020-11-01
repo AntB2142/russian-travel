@@ -1,0 +1,4 @@
+.header__lang.header__lang_active {
+    text-decoration: underline;
+    padding-right: 18px;
+}

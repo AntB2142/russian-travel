@@ -1,0 +1,10 @@
+.cover__link {
+    text-decoration: none;
+    position: relative;
+}
+
+@media all and (max-width: 1024px) {
+    .cover__link {
+        max-width: 768px;
+    }
+}

@@ -1,0 +1,27 @@
+.page__section {
+    padding: 0;
+}
+
+@media all and (max-width: 1024px) {
+    .page__section {
+        padding: 0 48px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .page__section {
+        padding: 0;
+    }
+}
+
+@media all and (max-width: 425px) {
+    .page__section {
+        margin: auto;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .page__section {
+        max-width: 288px;
+    }
+}
