@@ -34,12 +34,6 @@
     }
 }
 
-@media all and (max-width: 375px) {
-    .photo-grid {
-        row-gap: 16px;
-    }
-}
-
 @media all and (max-width: 320px) {
     .photo-grid {
         row-gap: 8px;

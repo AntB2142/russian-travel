@@ -11,12 +11,6 @@
     justify-content: space-between;
 }
 
-@media all and (max-width: 950px) {
-    .footer {
-        max-width: calc(100% - 46px);
-    }
-}
-
 @media all and (max-width: 768px) {
     .footer {
         max-width: calc(100% - 46px);
@@ -25,7 +19,6 @@
 
 @media all and (max-width: 425px) {
     .footer {
-        display: flex;
         flex-direction: column;
         margin-top: 64px;
         margin-bottom: 24px;

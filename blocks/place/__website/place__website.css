@@ -2,12 +2,6 @@
     align-self: flex-end;
 }
 
-@media all and (max-width: 460px) {
-    .place__website {
-        display: none;
-    }
-}
-
 @media all and (max-width: 425px) {
     .place__website {
         display: none;

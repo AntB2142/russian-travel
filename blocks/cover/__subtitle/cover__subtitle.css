@@ -9,11 +9,7 @@
     z-index: 1;
 }
 
-@media all and (max-width: 1024px) {
-    .cover__subtitle {
-        max-width: 382px;
-    }
-}
+
 
 @media all and (max-width: 425px) {
     .cover__subtitle {

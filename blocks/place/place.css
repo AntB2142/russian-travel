@@ -34,9 +34,3 @@
         padding-top: 0.5rem;
     }
 }
-
-@media screen and (min-width: 1280px) {
-    .place:first-child {
-        padding-top: 0;
-    }
-}

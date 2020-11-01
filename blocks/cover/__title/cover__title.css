@@ -38,16 +38,14 @@
 
 @media all and (max-width: 375px) {
     .cover__title {
-        font-size: 2rem;
-        line-height: 2.1875rem;
+        
         max-width: 343px;
     }
 }
 
 @media all and (max-width: 320px) {
     .cover__title {
-        font-size: 2rem;
-        line-height: 2.1875rem;
+        
         max-width: 288px;
     }
 }

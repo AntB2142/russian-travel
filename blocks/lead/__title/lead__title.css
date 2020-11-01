@@ -9,25 +9,14 @@
 @media all and (max-width: 768px) {
     .lead__title {
         max-width: calc(100% - 48px);
-        font-size: 6rem;
         line-height: 5.625rem;
     }
 }
 
 @media all and (max-width: 730px) {
     .lead__title {
-        max-width: calc(100% - 48px);
         font-size: 4rem;
         line-height: 4rem;
-    }
-}
-
-@media all and (max-width: 500px) {
-    .lead__title {
-        max-width: 393px;
-        font-size: 2.5rem;
-        line-height: 2.75rem;
-        margin-top: 24px;
     }
 }
 

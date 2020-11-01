@@ -17,14 +17,12 @@
 @media all and (max-width: 768px) {
     .header {
         max-width: 720px;
-        margin-top: 30px;
     }
 }
 
 @media all and (max-width: 730px) {
     .header {
         width: calc(100% - 32px);
-        margin-top: 30px;
     }
 }
 

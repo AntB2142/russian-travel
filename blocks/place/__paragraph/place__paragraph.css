@@ -15,6 +15,5 @@
 @media all and (max-width: 425px) {
     .place__paragraph {
         max-width: 393px;
-        ;
     }
 }
