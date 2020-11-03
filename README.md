@@ -14,4 +14,4 @@
 
 ### Ссылка на проект
 
-[Ссылка на проект](https://github.com/AntB2142/russian-travel)
+[Ссылка на проект](https://antb2142.github.io/russian-travel)
