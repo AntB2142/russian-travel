@@ -1,15 +1,14 @@
 .lead__title {
     font-weight: 900;
     font-size: 6rem;
-    line-height: 5.8125rem;
+    line-height: 6.25rem;
     text-align: center;
     margin: 0;
 }
 
 @media all and (max-width: 768px) {
     .lead__title {
-        max-width: calc(100% - 48px);
-        line-height: 5.625rem;
+        max-width: calc(100% - 24px);
     }
 }
 
@@ -25,6 +24,6 @@
         max-width: 393px;
         font-size: 2.5rem;
         line-height: 2.75rem;
-        margin-top: 24px;
+        margin-top: 48px;
     }
 }

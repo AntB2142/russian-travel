@@ -1,18 +1,18 @@
 .footer__link {
-    font-size: 1.5rem;
-    line-height: 2.5625rem;
+    font-size: 1rem;
+    line-height: 1.125rem;
     color: #ffffff;
     text-decoration: none;
     margin-right: 18px;
 }
 
 .footer__link:hover {
-    opacity: 0.6;
+    opacity: 0.8;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 320px) {
     .footer__link {
-        font-size: 1rem;
-        line-height: 1.6875rem;
+        font-size: 1.5rem;
+        line-height: 1.5rem;
     }
 }

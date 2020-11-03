@@ -1,4 +1,4 @@
-@import url("../page/__section/page__section.css");
+@import url("./__section/page__section.css");
 .page {
     background-color: #2a2c2f;
     margin: 0 auto;
@@ -6,7 +6,7 @@
     color: white;
     max-width: 1184px;
     min-width: 320px;
-    font-family: "Inter", "Arial", "Sans-serif";
+    font-family: "Inter", "Arial", sans-serif;
     font-weight: normal;
     font-style: normal;
 }

@@ -13,15 +13,14 @@
 @media all and (max-width: 375px) {
     .place__image {
         width: 100vw;
-        max-height: 375px;
+        max-height: 340px;
         padding: 0;
         margin: 0;
-        margin-left: -16px;
     }
 }
 
 @media all and (max-width: 325px) {
     .place__image {
-        max-height: 325px;
+        max-height: 320px;
     }
 }

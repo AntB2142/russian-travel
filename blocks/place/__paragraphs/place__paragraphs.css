@@ -8,7 +8,7 @@
     .place__paragraphs {
         max-width: 393px;
         margin-top: 24px;
-        text-align: justify;
+        text-align: start;
         padding: 0;
     }
 }

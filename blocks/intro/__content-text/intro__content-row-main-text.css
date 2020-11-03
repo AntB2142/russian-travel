@@ -1,0 +1,17 @@
+.intro__content-text {
+    max-width: 683px;
+    font-size: 1rem;
+    line-height: 1.625rem;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+@media all and (max-width: 425px) {
+    .intro__content-text {
+        font-size: 1rem;
+        line-height: 1.6875rem;
+    }
+}

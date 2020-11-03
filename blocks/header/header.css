@@ -1,16 +1,18 @@
-@import url("../header/__lang/header__lang.css");
-@import url("../header/__logo/header__logo.css");
+@import url("./__lang/header__lang.css");
+@import url("./__logo/header__logo.css");
+@import url("./__lang/_active/header__lang_active.css");
 .header {
     display: flex;
     justify-content: space-between;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 28px;
     margin-bottom: 48px;
 }
 
 @media all and (max-width: 1024px) {
     .header {
-        max-width: 768px;
+        max-width: 928px;
+        min-height: 52px;
     }
 }
 
@@ -22,20 +24,21 @@
 
 @media all and (max-width: 730px) {
     .header {
-        width: calc(100% - 32px);
+        width: calc(100% - 24px);
     }
 }
 
 @media all and (max-width: 425px) {
     .header {
-        max-width: calc(100% - 32px);
+        max-width: calc(100% - 24px);
         margin-top: 16px;
-        margin-bottom: 24px;
+        margin-bottom: 48px;
     }
 }
 
 @media all and (max-width: 320px) {
     .header {
         max-width: calc(100% - 16px);
+        min-height: 42px;
     }
 }

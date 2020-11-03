@@ -1,14 +1,14 @@
-@import url("../__lang/_active/header__lang_active.css");
 .header__lang {
     color: white;
     font-size: 1.5rem;
     line-height: 1.4375rem;
     text-decoration: none;
     padding-top: 20px;
+    padding-right: 18px;
 }
 
 .header__lang:hover {
-    opacity: 0.6;
+    opacity: 0.8;
 }
 
 @media all and (max-width: 425px) {
