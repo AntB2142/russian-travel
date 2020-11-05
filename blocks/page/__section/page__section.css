@@ -1,5 +1,6 @@
 .page__section {
-    margin: auto;
+    padding: 0;
+    margin: 0 auto;
 }
 
 @media all and (max-width: 1024px) {
@@ -10,12 +11,13 @@
 
 @media all and (max-width: 768px) {
     .page__section {
-        padding: 0;
+        padding: 0 24px;
     }
 }
 
 @media all and (max-width: 320px) {
     .page__section {
         max-width: 288px;
+        padding: 0 16px;
     }
 }

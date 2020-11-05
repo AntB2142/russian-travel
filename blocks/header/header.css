@@ -7,6 +7,7 @@
     margin: auto;
     margin-top: 28px;
     margin-bottom: 48px;
+    max-width: 1184px;
 }
 
 @media all and (max-width: 1024px) {
@@ -24,13 +25,12 @@
 
 @media all and (max-width: 730px) {
     .header {
-        width: calc(100% - 24px);
+        width: calc(100% - 48px);
     }
 }
 
 @media all and (max-width: 425px) {
     .header {
-        max-width: calc(100% - 24px);
         margin-top: 16px;
         margin-bottom: 48px;
     }
@@ -38,7 +38,7 @@
 
 @media all and (max-width: 320px) {
     .header {
-        max-width: calc(100% - 16px);
+        max-width: 288px;
         min-height: 42px;
     }
 }

@@ -15,9 +15,3 @@
         max-width: calc(100% - 32px);
     }
 }
-
-@media all and (max-width: 320px) {
-    .places {
-        width: calc(100% - 32px);
-    }
-}

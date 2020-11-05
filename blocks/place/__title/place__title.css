@@ -1,8 +1,9 @@
 .place__title {
     font-weight: 900;
     font-size: 4.5rem;
-    line-height: 65px;
+    line-height: 4.75rem;
     margin: 0;
+    max-width: 460px;
 }
 
 @media all and (max-width: 768px) {

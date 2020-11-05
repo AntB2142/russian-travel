@@ -3,7 +3,7 @@
     line-height: 4.75rem;
     font-weight: 900;
     max-width: 560px;
-    height: 152px;
+    min-height: 152px;
     text-align: center;
     margin: 0 0 32px;
     z-index: 1;

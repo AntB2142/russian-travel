@@ -1,5 +1,6 @@
 .header__logo {
     margin-right: auto;
+    max-width: 176px;
 }
 
 @media all and (max-width: 425px) {

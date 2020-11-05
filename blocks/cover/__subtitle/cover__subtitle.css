@@ -1,6 +1,6 @@
 .cover__subtitle {
     max-width: 360px;
-    height: 66px;
+    min-height: 66px;
     font-size: 1.125rem;
     line-height: 1.375rem;
     font-weight: normal;

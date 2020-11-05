@@ -1,9 +1,9 @@
 .intro__title {
     font-weight: 900;
     font-size: 3.375rem;
-    line-height: 3.6875rem;
+    line-height: 3.625rem;
     margin: 0;
-    margin-top: 70px;
+    margin-top: 92px;
 }
 
 @media all and (max-width: 425px) {

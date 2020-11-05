@@ -1,7 +1,8 @@
 .place__paragraphs {
     display: grid;
-    grid-row-gap: 2.25em;
+    grid-row-gap: 1.837em;
     align-content: start;
+    max-width: 484px;
 }
 
 @media all and (max-width: 425px) {

@@ -4,11 +4,15 @@
     line-height: 6.25rem;
     text-align: center;
     margin: 0;
+    max-width: 720px;
+    align-self: center;
 }
 
 @media all and (max-width: 768px) {
     .lead__title {
         max-width: calc(100% - 24px);
+        font-size: 4.5rem;
+        line-height: 4.5rem;
     }
 }
 
@@ -19,9 +23,16 @@
     }
 }
 
-@media all and (max-width: 425px) {
+@media all and (max-width:520px) {
     .lead__title {
-        max-width: 393px;
+        font-size: 2.98rem;
+        line-height: 2.98rem;
+    }
+}
+
+@media all and (max-width: 475px) {
+    .lead__title {
+        max-width: 288px;
         font-size: 2.5rem;
         line-height: 2.75rem;
         margin-top: 48px;

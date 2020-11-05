@@ -1,7 +1,7 @@
 @import url("./__item/photo-grid__item.css");
 .photo-grid {
     margin: 85px auto;
-    max-width: 1184px;
+    max-width: 1280px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(auto-fill, 1fr);
@@ -37,6 +37,6 @@
 @media all and (max-width: 320px) {
     .photo-grid {
         row-gap: 8px;
-        width: calc(100% - 16px);
+        max-width: 300px;
     }
 }

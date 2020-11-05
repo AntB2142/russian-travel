@@ -1,49 +1,49 @@
-.cover__link {
-    background-image: url("../../../images/baikal-2.jpg");
-    width: 100%;
-    height: 740px;
-    background-size: cover;
-    z-index: 10;
-    display: flex;
-    color: #FFFFFF;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-
-.cover__link::after {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 100%;
-    background-color: #333;
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0.3;
-    z-index: 0;
-}
-
-.cover__link:hover::after {
-    opacity: 0.8;
-}
-
-@media screen and (max-width: 1024px) {
     .cover__link {
-        height: 640px;
+        background-image: url("../../../images/baikal-2.jpg");
+        width: 100%;
+        min-height: 740px;
+        background-size: cover;
+        background-position: center;
+        z-index: 10;
+        display: flex;
+        color: #FFFFFF;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
     }
-}
-
-@media screen and (max-width: 768px) {
-    .cover__link {
-        height: 480px;
+    
+    .cover__link::after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: #2a2c2f;
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0.3;
+        z-index: 0;
     }
-}
-
-@media screen and (max-width: 567px) {
-    .cover__link {
-        height: 200px;
+    
+    .cover__link:hover::after {
+        opacity: 0.8;
     }
-}
+    
+    @media screen and (max-width: 1024px) {
+        .cover__link {
+            min-height: 640px;
+        }
+    }
+    
+    @media screen and (max-width: 768px) {
+        .cover__link {
+            min-height: 480px;
+        }
+    }
+    
+    @media screen and (max-width: 567px) {
+        .cover__link {
+            min-height: 200px;
+        }
+    }

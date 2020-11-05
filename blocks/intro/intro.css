@@ -6,6 +6,9 @@
     margin: auto;
     max-width: 984px;
     color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
 }
 
 @media all and (max-width: 768px) {

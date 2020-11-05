@@ -5,7 +5,7 @@
 
 @media all and (max-width: 768px) {
     .lead__image {
-        width: 100vw;
+        width: 100%;
     }
 }
 
