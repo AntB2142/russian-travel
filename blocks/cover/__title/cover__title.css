@@ -3,9 +3,8 @@
     line-height: 4.75rem;
     font-weight: 900;
     max-width: 560px;
-    min-height: 152px;
     text-align: center;
-    margin: 0 0 32px;
+    margin: 0 auto 32px;
     z-index: 1;
 }
 
@@ -14,7 +13,6 @@
         font-size: 2rem;
         line-height: 2.187rem;
         max-width: 250px;
-        height: auto;
         margin: 33px 16px 16px;
     }
 }

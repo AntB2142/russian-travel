@@ -15,7 +15,7 @@
     }
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 510px) {
     .page__section {
         max-width: 288px;
         padding: 0 16px;

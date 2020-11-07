@@ -6,6 +6,12 @@
     margin-top: 92px;
 }
 
+@media all and (max-width: 768px) {
+    .intro__title {
+        margin-top: 88px;
+    }
+}
+
 @media all and (max-width: 425px) {
     .intro__title {
         margin-top: 64px;

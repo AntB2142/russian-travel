@@ -14,5 +14,6 @@
 @media all and (max-width: 425px) {
     .footer__links {
         flex-direction: column;
+        line-height: 32px;
     }
 }

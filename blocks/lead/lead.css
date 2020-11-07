@@ -9,3 +9,9 @@
     max-width: 984px;
     margin: auto;
 }
+
+@media all and (max-width: 768px) {
+    .lead {
+        padding: 0;
+    }
+}

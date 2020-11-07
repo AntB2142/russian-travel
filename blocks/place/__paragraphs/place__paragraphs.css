@@ -1,15 +1,11 @@
 .place__paragraphs {
-    display: grid;
-    grid-row-gap: 1.837em;
-    align-content: start;
-    max-width: 484px;
+    grid-area: paragraph;
+    max-width: 100%;
 }
 
-@media all and (max-width: 425px) {
+@media all and (max-width: 320px) {
     .place__paragraphs {
-        max-width: 393px;
-        margin-top: 24px;
-        text-align: start;
-        padding: 0;
+        margin: 0 auto;
+        max-width: 288px;
     }
 }

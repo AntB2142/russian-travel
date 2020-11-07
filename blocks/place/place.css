@@ -6,31 +6,41 @@
 @import url("./__website-type/place__website-type.css");
 @import url("./__website/place__website.css");
 .place {
-    padding-top: 1.6rem;
-    padding-bottom: 1.6rem;
-}
-
-.place:first-child {
-    padding-top: 0;
+    display: grid;
+    row-gap: 48px;
+    column-gap: 40px;
+    grid-template-columns: 460px 1fr;
+    grid-template-areas: "title url" "image paragraph";
+    margin-bottom: 80px;
 }
 
 .place:last-child {
-    padding-bottom: 0;
+    margin-bottom: 0px;
 }
 
-@media screen and (min-width: 768px) {
+@media all and (max-width:1024px) {
     .place {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-column-gap: 1.3rem;
-        grid-row-gap: 3rem;
-        padding-top: 2.5rem;
-        padding-bottom: 2.5rem;
+        grid-template-columns: 440px 1fr;
+        column-gap: 32px;
     }
 }
 
-@media screen and (min-width: 1024px) {
-    .place:first-child {
-        padding-top: 0.5rem;
+@media all and (max-width:975px) {
+    .place {
+        grid-template-columns: 340px 1fr;
+        column-gap: 28px;
+        margin-bottom: 70px;
+    }
+}
+
+@media all and (max-width:713px) {
+    .place {
+        display: block;
+    }
+}
+
+@media all and (max-width:320px) {
+    .place {
+        margin-bottom: 61px;
     }
 }

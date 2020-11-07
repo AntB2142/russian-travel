@@ -1,9 +1,13 @@
 .place__website {
-    align-self: flex-end;
-    max-width: 456px;
+    max-width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    flex-direction: column;
+    grid-area: url;
 }
 
-@media all and (max-width: 425px) {
+@media all and (max-width:713px) {
     .place__website {
         display: none;
     }

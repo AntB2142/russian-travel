@@ -3,10 +3,10 @@
 @import url("./__title/cover__title.css");
 .cover {
     min-height: 740px;
-    margin: 0 0 92px;
+    margin: 0 auto 92px;
     position: relative;
     width: 100%;
-    max-width: 1280px;
+    max-width: 1184px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -17,14 +17,20 @@
 
 @media screen and (max-width: 768px) {
     .cover {
-        margin: 0 0 88px;
+        margin: 0 auto 88px;
         min-height: 480px;
     }
 }
 
 @media screen and (max-width: 567px) {
     .cover {
-        margin: 0 0 64px;
+        margin: 0 auto 64px;
         min-height: 200px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover {
+        margin-top: 90px;
     }
 }

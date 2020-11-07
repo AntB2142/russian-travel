@@ -9,13 +9,13 @@
 
 @media all and (max-width: 768px) {
     .lead__subtitle {
-        max-width: calc(100% - 48px);
+        max-width: calc(100% - 64*2px);
     }
 }
 
 @media all and (max-width: 425px) {
     .lead__subtitle {
-        max-width: 393px;
+        max-width: 288px;
         font-size: 1rem;
         line-height: 1.4375rem;
         margin-top: 8px;

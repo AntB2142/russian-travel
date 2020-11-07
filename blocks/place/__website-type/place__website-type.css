@@ -1,9 +1,15 @@
 .place__website-type {
+    margin: 0px;
+    margin-bottom: 12px;
+    color: #AAAAAA;
     font-size: 0.75rem;
     line-height: 1.25rem;
     letter-spacing: 0.2em;
-    color: #aaaaaa;
-    margin-bottom: 12px;
-    margin: 0;
-    padding: 0;
+    text-transform: uppercase;
+}
+
+@media all and (max-width:768px) {
+    .place__website-type {
+        line-height: 0.75rem;
+    }
 }

@@ -10,9 +10,7 @@
 
 @media all and (max-width: 768px) {
     .lead__title {
-        max-width: calc(100% - 24px);
-        font-size: 4.5rem;
-        line-height: 4.5rem;
+        max-width: calc(100% - 48px);
     }
 }
 

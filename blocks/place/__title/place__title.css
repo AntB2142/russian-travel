@@ -3,29 +3,23 @@
     font-size: 4.5rem;
     line-height: 4.75rem;
     margin: 0;
-    max-width: 460px;
+    max-width: 100%;
+    grid-area: title;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 975px) {
     .place__title {
         font-size: 2.625rem;
-        line-height: 2.875rem;
-        max-width: 340px;
-        align-self: flex-end;
+        line-height: 4.92rem;
     }
 }
 
-@media all and (max-width: 460px) {
+@media all and (max-width: 320px) {
     .place__title {
-        align-self: start;
-    }
-}
-
-@media all and (max-width: 425px) {
-    .place__title {
-        align-self: flex-start;
-        margin-bottom: 32px;
         font-size: 2rem;
-        line-height: 2.1875rem;
+        line-height: 2.187rem;
+        margin: auto;
+        max-width: 288px;
+        margin-bottom: 32px;
     }
 }
